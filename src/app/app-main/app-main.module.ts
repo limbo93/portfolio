@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { AppToolbarComponent } from './app-toolbar/app-toolbar.component';
 import { RouterModule } from '@angular/router';
 import { appMainRoutes } from './app-main.routes';
@@ -10,15 +9,18 @@ import { ReferenceComponent } from './reference/reference.component';
 import { EducationComponent } from './education/education.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { SkillComponent } from './skill/skill.component';
+import { AppSliderImageComponent } from './app-slider-image/app-slider-image.component';
+import { SharedModule } from '../common/shared.module';
 
 @NgModule({
   imports: [
-    CommonModule,
+    SharedModule,
     RouterModule.forChild(appMainRoutes)
   ],
   declarations: [
     AppMainComponent,
     AppToolbarComponent,
+    AppSliderImageComponent,
     AboutComponent,
     AppFooterComponent,
     ReferenceComponent,
