@@ -11,9 +11,11 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
 import { SkillComponent } from './skill/skill.component';
 import { AppSliderImageComponent } from './app-slider-image/app-slider-image.component';
 import { SharedModule } from '../common/shared.module';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   imports: [
+    FormsModule,
     SharedModule,
     RouterModule.forChild(appMainRoutes)
   ],

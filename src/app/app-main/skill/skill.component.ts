@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ProfessionalSkill } from 'src/app/services/domain/professional.skill.model';
 
 @Component({
   selector: 'app-skill',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./skill.component.scss']
 })
 export class SkillComponent implements OnInit {
+
+  professionalSkill: ProfessionalSkill = new ProfessionalSkill();
 
   constructor() { }
 

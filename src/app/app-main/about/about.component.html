@@ -1,3 +1,45 @@
-<p>
-  about works!
-</p>
+<mat-card style="display: flex; flex-direction: row">
+  <div style="flex: 5; margin-right: 30px;">
+    <mat-card-title>About</mat-card-title>
+    <mat-card-content>
+      Hello! I am Anthony Barnett. Web Developer, Graphic Designer and Photographer.
+
+      Creative CV is a HTML resume template for professionals. Built with Bootstrap 4, Now UI Kit and FontAwesome, this
+      modern and responsive design template is perfect to showcase your portfolio, skills and experience
+    </mat-card-content>
+  </div>
+
+  <div style="flex: 5; margin-left: 30px;">
+    <mat-card-title>Basic Information</mat-card-title>
+    <mat-card-content>
+      <table class="table table-bordered table-striped">
+
+        <tr>
+          <th>AGE</th>
+          <td>{{basicInforMation.age}}</td>
+        </tr>
+
+        <tr>
+          <th>EMAIL</th>
+          <td>{{basicInforMation.email}}</td>
+        </tr>
+
+        <tr>
+          <th>PHONE</th>
+          <td>{{basicInforMation.phone}}</td>
+        </tr>
+
+        <tr>
+          <th>ADDRESS</th>
+          <td>{{basicInforMation.address}}</td>
+        </tr>
+
+        <tr>
+          <th>LANGUAGE</th>
+          <td>{{basicInforMation.language}}</td>
+        </tr>
+
+      </table>
+    </mat-card-content>
+  </div>
+</mat-card>
