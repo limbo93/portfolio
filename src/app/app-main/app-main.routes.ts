@@ -1,6 +1,6 @@
 import { Routes } from "@angular/router";
-import { AppTopbarComponent } from "./app-topbar/app-topbar.component";
+import { AppMainComponent } from "./app-main.component";
 
 export const appMainRoutes: Routes = [
-    { path: '', component: AppTopbarComponent }
+    { path: '', component: AppMainComponent }
 ];
