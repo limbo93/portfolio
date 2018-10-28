@@ -12,6 +12,7 @@ import { SkillComponent } from './skill/skill.component';
 import { AppSliderImageComponent } from './app-slider-image/app-slider-image.component';
 import { SharedModule } from '../common/shared.module';
 import { FormsModule } from '@angular/forms';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 @NgModule({
   imports: [
@@ -28,7 +29,8 @@ import { FormsModule } from '@angular/forms';
     ReferenceComponent,
     EducationComponent,
     WorkExperienceComponent,
-    SkillComponent
+    SkillComponent,
+    PortfolioComponent
   ]
 })
 export class AppMainModule { }
